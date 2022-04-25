@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
+  env: {
+    BASE_URL: 'https://fakestoreapi.com',
+  },
 }
 
 module.exports = nextConfig
