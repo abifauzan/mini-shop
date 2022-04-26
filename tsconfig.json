@@ -37,7 +37,7 @@
     "**/*.tsx",
     "**/*.js",
     "**/*.json",
-    "src/containers/hello"
+    "src/containers/product-cart"
   ],
   "exclude": ["node_modules", ".next", "build", "**/*.test.ts*"]
 }
